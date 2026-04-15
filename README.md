@@ -113,3 +113,32 @@ The plot window is especially useful for:
 - stability testing
 - quick visual trend analysis
 - Screenshots
+
+## Live Plot
+![Live plot](screenshots/graph.png)
+
+## Console
+![Console output](screenshots/prompt.png)
+
+## Configuration
+You can adjust key parameters directly in the script.
+
+Plot window length
+```Phyton
+PLOT_WINDOW_SEC = 300
+```
+HID timing
+```Phyton
+TIMER_INTERVAL_MS = 100
+```
+## Notes
+- The current script is Windows-oriented because it uses msvcrt for keyboard handling.
+- The Matplotlib GUI must run in the main thread on Windows.
+- HID support depends on your Python environment and the installed hidapi package.
+- The script is intended for the Brymen BM869s and may not work with other Brymen models without changes.
+
+## Known Limitations
+- Windows-focused implementation
+- No packaged executable yet
+- No command-line argument parsing yet
+- Plot currently tracks the parsed primary value stream
