@@ -46,12 +46,11 @@ This repository builds on that foundation and adds a more practical desktop logg
 .
 ├── README.md
 ├── LICENSE
-├── brymen_bm869s_v3.py
+├── brymen_BM869s_Logger.py
 ├── screenshots
-│   ├── live_plot.png
-│   └── console_output.png
-└── examples
-    └── sample_log.txt
+    ├── live_plot.png
+    └── console_output.png
+
 ```
 ## Requirements
 
@@ -70,7 +69,7 @@ pip install hidapi matplotlib
 
 Connect your Brymen BM869s meter by USB and run:
 ```text
-python brymen_bm869s_Logger.py
+python brymen_BM869s_Logger.py
 ```
 At startup, the script will:
 
@@ -83,8 +82,8 @@ At startup, the script will:
 
 The program stops when:
 
-- you press a key in the console, or
-- you close the plot window
+- You press a key in the console, or
+- You close the plot window
 
 ## Logging
 
