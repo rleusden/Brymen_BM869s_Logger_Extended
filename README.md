@@ -46,7 +46,7 @@ This repository builds on that foundation and adds a more practical desktop logg
 .
 ├── README.md
 ├── LICENSE
-├── brymen_BM869s_Logger.py
+├── brymen-BM869s_Logger.py
 ├── screenshots
     ├── live_plot.png
     └── console_output.png
@@ -69,7 +69,7 @@ pip install hidapi matplotlib
 
 Connect your Brymen BM869s meter by USB and run:
 ```text
-python brymen_BM869s_Logger.py
+python brymen-BM869s_Logger.py
 ```
 At startup, the script will:
 
