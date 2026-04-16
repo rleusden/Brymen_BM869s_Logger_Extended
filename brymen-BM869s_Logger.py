@@ -1,4 +1,3 @@
-
 import sys
 import os
 import hid
@@ -324,6 +323,7 @@ def measure_loop(flog):
 # ---------------------------------------------------------------------------
 def run_plot():
     fig, ax = plt.subplots(figsize=(11, 4))
+    fig.canvas.manager.set_window_title("Brymen BM869s Logger")
     fig.patch.set_facecolor('#1e1e2e')
     ax.set_facecolor('#1e1e2e')
     ax.tick_params(colors='#cdd6f4', which='both')
