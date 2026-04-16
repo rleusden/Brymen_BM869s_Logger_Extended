@@ -48,8 +48,8 @@ This repository builds on that foundation and adds a more practical desktop logg
 ├── LICENSE
 ├── brymen-BM869s_Logger.py
 ├── screenshots
-    ├── live_plot.png
-    └── console_output.png
+    ├── graph.png
+    └── prompt.png
 
 ```
 ## Requirements
